@@ -23,7 +23,7 @@ In both academic and professional settings, evaluating debates is essential but 
 | Category      | Technologies                                                                          |
 | :------------ | :------------------------------------------------------------------------------------ |
 | **Frontend** | React.js, JavaScript (ES2024)                                         |
-| **Backend** |Java (Spring Boot), Python (FastAPI for ML Models)                     |
+| **Backend** |Java (Spring Boot), Python (FastAPI for ML Models) ,Node.Js                |
 | **Database** |MongoDB                                                               |
 | **AI/ML** | Natural Language Processing (NLP), Speech-to-Text, Machine Learning Models   |
 | **DevOps** |Git, GitHub, Postman                                                    |
