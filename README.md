@@ -35,10 +35,10 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 ### Prerequisites
 
-* [cite_start]Node.js (v22+) [cite: 89]
-* [cite_start]Java (JDK 21+) [cite: 89]
-* [cite_start]Python (v3.11+) [cite: 89]
-* [cite_start]MongoDB Atlas account or local MongoDB instance [cite: 89]
+* Node.js (v22+)
+* Java (JDK 21+) 
+* Python (v3.11+)
+* MongoDB Atlas account or local MongoDB instance 
 * Firebase project for authentication
 
 ### Installation
@@ -87,10 +87,10 @@ This project is made possible by the following team members:
 
 | Name                   | Role                                        |
 | :--------------------- | :------------------------------------------ |
-| Yash Vardhan Srivastava| [cite_start]Team Lead, AI/ML and Backend Lead [cite: 14]  |
-| Avantik Thakur         | [cite_start]AI/ML and Backend [cite: 14]                |
-| Manya Sharma           | [cite_start]Presentation, Frontend, AI/ML, Deployment Lead [cite: 14] |
-| Vivek Choudhary        | [cite_start]Frontend (React), AI/ML [cite: 14]          |
+| Yash Vardhan Srivastava| Team Lead, AI/ML and Backend Lead  |
+| Avantik Thakur         | AI/ML and Backend                 |
+| Manya Sharma           | Presentation, Frontend, AI/ML, Deployment Lead  |
+| Vivek Choudhary        | Frontend (React), AI/ML          |
 
 ## 📄 License
 
