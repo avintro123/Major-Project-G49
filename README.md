@@ -3,31 +3,31 @@
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Status](https://img.shields.io/badge/status-in%20development-orange.svg)
 
-An intelligent system designed to provide objective, consistent, and immediate feedback for debates. [cite_start]This project leverages Natural Language Processing (NLP) and Machine Learning (ML) to analyze debate arguments, moving beyond subjective human scoring to offer data-driven insights[cite: 41, 42].
+An intelligent system designed to provide objective, consistent, and immediate feedback for debates. This project leverages Natural Language Processing (NLP) and Machine Learning (ML) to analyze debate arguments, moving beyond subjective human scoring to offer data-driven insights.
 
 ## 🎯 Problem Statement
 
-[cite_start]In both academic and professional settings, evaluating debates is essential but challenging[cite: 32]. [cite_start]Human judges, even when experienced, can introduce personal biases and inconsistencies into their scoring[cite: 37]. [cite_start]This can discourage participants and compromise the fairness of a competition[cite: 40]. [cite_start]The AI-Powered Debate Evaluator aims to solve this by creating a fair, scalable, and intelligent platform for assessing debate performance and providing constructive feedback for improvement[cite: 65, 66].
+In both academic and professional settings, evaluating debates is essential but challenging. Human judges, even when experienced, can introduce personal biases and inconsistencies into their scoring.This can discourage participants and compromise the fairness of a competition.The AI-Powered Debate Evaluator aims to solve this by creating a fair, scalable, and intelligent platform for assessing debate performance and providing constructive feedback for improvement.
 
 ## ✨ Features
 
-* [cite_start]**Automated Evaluation:** Assess debate arguments submitted in either text or audio format[cite: 69]. [cite_start]Audio is automatically transcribed to text for analysis[cite: 44].
-* [cite_start]**Multi-Faceted Analysis:** Uses ML models to evaluate arguments based on key criteria such as **argument strength**, **logical coherence**, **relevance**, **clarity**, **sentiment**, and **tone**[cite: 45].
-* [cite_start]**Objective Scoring:** Generates impartial scores for each participant, reducing the subjective bias common in human evaluation[cite: 47, 71].
-* [cite_start]**Constructive Feedback:** Provides actionable feedback, highlighting logical strengths, identifying areas needing more evidence, and suggesting improvements[cite: 47, 48].
-* [cite_start]**Performance Tracking:** Keeps a detailed history of debate sessions, allowing participants and educators to track progress and identify patterns over time[cite: 61, 75].
-* [cite_start]**User-Friendly Interface:** An intuitive and responsive UI built with React.js for a seamless user experience[cite: 76].
+* **Automated Evaluation:** Assess debate arguments submitted in either text or audio format[cite: 69]. [cite_start]Audio is automatically transcribed to text for analysis.
+* **Multi-Faceted Analysis:** Uses ML models to evaluate arguments based on key criteria such as **argument strength**, **logical coherence**, **relevance**, **clarity**, **sentiment**, and **tone**.
+* **Objective Scoring:** Generates impartial scores for each participant, reducing the subjective bias common in human evaluation.
+* **Constructive Feedback:** Provides actionable feedback, highlighting logical strengths, identifying areas needing more evidence, and suggesting improvements.
+* **Performance Tracking:** Keeps a detailed history of debate sessions, allowing participants and educators to track progress and identify patterns over time.
+* **User-Friendly Interface:** An intuitive and responsive UI built with React.js for a seamless user experience.
 
 ## 🛠️ Technology Stack
 
 | Category      | Technologies                                                                          |
 | :------------ | :------------------------------------------------------------------------------------ |
-| **Frontend** | [cite_start]React.js, JavaScript (ES2024) [cite: 89]                                               |
-| **Backend** | [cite_start]Java (Spring Boot), Python (FastAPI for ML Models) [cite: 17, 89]                       |
-| **Database** | [cite_start]MongoDB [cite: 89]                                                                    |
-| **AI/ML** | [cite_start]Natural Language Processing (NLP), Speech-to-Text, Machine Learning Models [cite: 42]   |
-| **DevOps** | [cite_start]Git, GitHub, Postman [cite: 89]                                                       |
-| **Auth** | [cite_start]Firebase [cite: 17]                                                                   |
+| **Frontend** | React.js, JavaScript (ES2024)                                         |
+| **Backend** |Java (Spring Boot), Python (FastAPI for ML Models)                     |
+| **Database** |MongoDB                                                               |
+| **AI/ML** | Natural Language Processing (NLP), Speech-to-Text, Machine Learning Models   |
+| **DevOps** |Git, GitHub, Postman                                                    |
+| **Auth** | Firebase                                                                  |
 
 ## 🚀 Getting Started
 
