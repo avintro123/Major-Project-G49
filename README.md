@@ -49,14 +49,22 @@ Follow these instructions to get a copy of the project up and running on your lo
     cd ai-debate-evaluator
     ```
 
-2.  **Setup Backend (Java Spring Boot)**
+2.  **Setup Backend (Java Spring Boot And Node.Js)**
     ```sh
-    cd backend
+    cd backend/java
+    # Java Spring Boot Setup
     # Create an application.properties file with your DB and Firebase credentials
     # Build the project
     ./mvnw clean install
     # Run the application
     ./mvnw spring-boot:run
+    # Node.js Setup
+    cd backend/node
+    # Install dependencies
+    npm install
+    # Create a .env file with your environment variables (e.g., DB URI, Firebase config)
+    # Run the application
+    npm start
     ```
 
 3.  **Setup ML Service (Python FastAPI)**
