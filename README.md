@@ -11,7 +11,7 @@ In both academic and professional settings, evaluating debates is essential but 
 
 ## ✨ Features
 
-* **Automated Evaluation:** Assess debate arguments submitted in either text or audio format[cite: 69]. [cite_start]Audio is automatically transcribed to text for analysis.
+* **Automated Evaluation:** Assess debate arguments submitted in either text or audio format.Audio is automatically transcribed to text for analysis.
 * **Multi-Faceted Analysis:** Uses ML models to evaluate arguments based on key criteria such as **argument strength**, **logical coherence**, **relevance**, **clarity**, **sentiment**, and **tone**.
 * **Objective Scoring:** Generates impartial scores for each participant, reducing the subjective bias common in human evaluation.
 * **Constructive Feedback:** Provides actionable feedback, highlighting logical strengths, identifying areas needing more evidence, and suggesting improvements.
