@@ -1,6 +1,8 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { ThemeProvider } from "./context/ThemeContext";
+import { AuthProvider } from "./context/AuthContext";
+import ProtectedRoute from "./components/auth/ProtectedRoute";
 import { Layout } from "./components/layout/Layout";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
@@ -14,20 +16,57 @@ import DebateDetail from "./pages/DebateDetail";
 function App() {
   return (
     <ThemeProvider>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Layout />}>
-            <Route index element={<Home />} />
-            <Route path="login" element={<Login />} />
-            <Route path="signup" element={<Signup />} />
-            <Route path="debate/text" element={<DebateInputText />} />
-            <Route path="debate/voice" element={<DebateInputVoice />} />
-            <Route path="evaluation" element={<Evaluation />} />
-            <Route path="history" element={<History />} />
-            <Route path="history/:id" element={<DebateDetail />} />
-          </Route>
-        </Routes>
-      </BrowserRouter>
+      <AuthProvider>
+        <BrowserRouter>
+          <Routes>
+            <Route path="/" element={<Layout />}>
+              <Route index element={<Home />} />
+              <Route path="login" element={<Login />} />
+              <Route path="signup" element={<Signup />} />
+              <Route
+                path="debate/text"
+                element={
+                  <ProtectedRoute>
+                    <DebateInputText />
+                  </ProtectedRoute>
+                }
+              />
+              <Route
+                path="debate/voice"
+                element={
+                  <ProtectedRoute>
+                    <DebateInputVoice />
+                  </ProtectedRoute>
+                }
+              />
+              <Route
+                path="evaluation"
+                element={
+                  <ProtectedRoute>
+                    <Evaluation />
+                  </ProtectedRoute>
+                }
+              />
+              <Route
+                path="history"
+                element={
+                  <ProtectedRoute>
+                    <History />
+                  </ProtectedRoute>
+                }
+              />
+              <Route
+                path="history/:id"
+                element={
+                  <ProtectedRoute>
+                    <DebateDetail />
+                  </ProtectedRoute>
+                }
+              />
+            </Route>
+          </Routes>
+        </BrowserRouter>
+      </AuthProvider>
     </ThemeProvider>
   );
 }
