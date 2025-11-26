@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import { useTheme } from "../../context/ThemeContext";
+
 import { useAuth } from "../../context/AuthContext";
 import { Button } from "../ui/Button";
 import { Moon, Sun, Menu, X, Mic, LogOut, User } from "lucide-react";
@@ -8,7 +8,6 @@ import { cn } from "../../lib/utils";
 import { motion, AnimatePresence } from "framer-motion";
 
 export function Navbar() {
-  const { theme, toggleTheme } = useTheme();
   const { currentUser, logout } = useAuth();
   const navigate = useNavigate();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -97,18 +96,6 @@ export function Navbar() {
             <div className="h-6 w-px bg-white/10" />
 
             <div className="flex items-center gap-4">
-              <button
-                onClick={toggleTheme}
-                className="p-2 rounded-full hover:bg-white/5 text-gray-400 hover:text-white transition-colors relative group"
-              >
-                {theme === "dark" ? (
-                  <Sun className="w-5 h-5" />
-                ) : (
-                  <Moon className="w-5 h-5" />
-                )}
-                <span className="absolute inset-0 rounded-full bg-white/10 scale-0 group-hover:scale-100 transition-transform" />
-              </button>
-
               {currentUser ? (
                 <div className="flex items-center gap-4">
                   <div className="flex items-center gap-2 text-sm text-gray-400">
@@ -190,19 +177,6 @@ export function Navbar() {
                   {link.name}
                 </Link>
               ))}
-              <div className="flex items-center justify-between pt-4 border-t border-white/10">
-                <span className="text-gray-400">Theme</span>
-                <button
-                  onClick={toggleTheme}
-                  className="p-2 rounded-full hover:bg-white/5 text-gray-400"
-                >
-                  {theme === "dark" ? (
-                    <Sun className="w-5 h-5" />
-                  ) : (
-                    <Moon className="w-5 h-5" />
-                  )}
-                </button>
-              </div>
 
               {currentUser ? (
                 <div className="pt-4 border-t border-white/10 space-y-4">
