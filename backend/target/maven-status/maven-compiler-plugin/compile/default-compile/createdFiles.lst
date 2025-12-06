@@ -1,0 +1,15 @@
+com\debate\evaluator\service\ReportService.class
+com\debate\evaluator\DebateEvaluatorApplication.class
+com\debate\evaluator\model\DebateRecord.class
+com\debate\evaluator\repository\DebateRepository.class
+com\debate\evaluator\service\FactCheckService.class
+com\debate\evaluator\service\DebateService.class
+com\debate\evaluator\model\DebateRecord$AnalysisResult.class
+com\debate\evaluator\controller\DebateController.class
+com\debate\evaluator\exception\GlobalExceptionHandler.class
+com\debate\evaluator\service\AiIntegrationService.class
+com\debate\evaluator\config\CorsConfig.class
+com\debate\evaluator\model\DebateRecord$DebateRecordBuilder.class
+com\debate\evaluator\config\CorsConfig$1.class
+com\debate\evaluator\dto\EvaluateRequest.class
+com\debate\evaluator\model\DebateRecord$AnalysisResult$AnalysisResultBuilder.class
