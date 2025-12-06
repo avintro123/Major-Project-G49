@@ -1,0 +1,11 @@
+D:\evaluator\src\main\java\com\debate\evaluator\config\CorsConfig.java
+D:\evaluator\src\main\java\com\debate\evaluator\controller\DebateController.java
+D:\evaluator\src\main\java\com\debate\evaluator\DebateEvaluatorApplication.java
+D:\evaluator\src\main\java\com\debate\evaluator\dto\EvaluateRequest.java
+D:\evaluator\src\main\java\com\debate\evaluator\exception\GlobalExceptionHandler.java
+D:\evaluator\src\main\java\com\debate\evaluator\model\DebateRecord.java
+D:\evaluator\src\main\java\com\debate\evaluator\repository\DebateRepository.java
+D:\evaluator\src\main\java\com\debate\evaluator\service\AiIntegrationService.java
+D:\evaluator\src\main\java\com\debate\evaluator\service\DebateService.java
+D:\evaluator\src\main\java\com\debate\evaluator\service\FactCheckService.java
+D:\evaluator\src\main\java\com\debate\evaluator\service\ReportService.java
